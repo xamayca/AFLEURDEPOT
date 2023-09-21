@@ -62,11 +62,15 @@
 /*******************************/
 .card-text{font-size: .8rem;}
 .card-title{font-size: .8rem;}
-
-@media screen and (min-width:600px) {
-    .card-text{font-size: 2vh;}
-    .card-title{font-size: 2vh;}
-}
 /*********************************/
 /**** FIN DU CSS DESCRIPTION ****/
+/*******************************/
+/*********************************/
+/****** DEBUT DU CSS FOOTER *****/
+/*******************************/
+.mail{font-size: .8rem;}
+.mail:hover{color:#92E3A9;cursor: pointer;}
+.social-icon:hover{color:#92E3A9;cursor: pointer;}
+/*********************************/
+/******* FIN DU CSS FOOTER ******/
 /*******************************/
