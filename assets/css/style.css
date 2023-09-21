@@ -1,5 +1,5 @@
 /*********************************/
-/** DEBUT DU CSS DE LA NAVBAR ***/
+/** DEBUT DU CSS DES COULEURS ***/
 /*******************************/
 .link-green-color a{color:#088A4B;}
 
@@ -11,6 +11,13 @@
 
 .bg-green-light-color{background-color:#92E3A9;}
 
+.btn-green{background-color:#088A4B !important;}
+/*********************************/
+/*** FIN DU CSS DES COULEURS ****/
+/*******************************/
+/*********************************/
+/** DEBUT DU CSS DE LA NAVBAR ***/
+/*******************************/
 .navbar-brand:hover{color:#92E3A9;}
 
 .navbar li a:hover{color:#92E3A9;background-color: #088A4B;}
@@ -29,10 +36,37 @@
     flex-grow: 0 !important;
 }
 
+
 .navbar {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
-
 /*********************************/
 /*** FIN DU CSS DE LA NAVBAR ****/
+/*******************************/
+/*********************************/
+/*** DEBUT DU CSS DU CAROUSEL ***/
+/*******************************/
+.carousel-item, .carousel-item img {
+    height: 50vh;
+    object-fit: cover;
+}
+
+.carousel-title{
+    font-size: 9vh;
+}
+/*********************************/
+/**** FIN DU CSS DU CAROUSEL ****/
+/*******************************/
+/*********************************/
+/*** DEBUT DU CSS DESCRIPTION ***/
+/*******************************/
+.card-text{font-size: .8rem;}
+.card-title{font-size: .8rem;}
+
+@media screen and (min-width:600px) {
+    .card-text{font-size: 2vh;}
+    .card-title{font-size: 2vh;}
+}
+/*********************************/
+/**** FIN DU CSS DESCRIPTION ****/
 /*******************************/
